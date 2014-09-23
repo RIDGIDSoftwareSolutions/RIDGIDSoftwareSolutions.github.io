@@ -1,0 +1,59 @@
+#body
+{
+    margin: 10px auto 30px auto;
+    font-family: sans-serif;
+    width: 100%;
+    max-width: 1000px;
+}
+
+#top
+{
+    text-align: center;
+    background-image:  url(https://www.ridgid.com/Themes/RIDGID.Blaze/content/images/global/striped_header_background.png);
+}
+
+h3
+{
+    text-decoration: underline;
+}
+
+#bRidgidLogo
+{
+    background-color: black;
+}
+
+#foot
+{
+    text-align: center;
+}
+
+#coop-Experience #lunchPic
+{
+    float: right;
+    margin: 5px 0px 10px 10px;    
+}
+
+#teamPic
+{
+    float: left; 
+    margin: 5px 15px 5px 5px;
+}
+
+#header
+{
+    text-align: center;
+    background-color: black;
+}
+
+button
+{
+    color: white;
+    background: linear-gradient(to bottom,#b91313 0%,#b91313 48%,#a50303 51%,#a50303 100%);
+    border-radius: 5px;
+    font-weight: bold;
+    border: 2px solid;
+    cursor: pointer;
+    height: 40px; 
+    width: 200px;
+    align-self: center;
+}
