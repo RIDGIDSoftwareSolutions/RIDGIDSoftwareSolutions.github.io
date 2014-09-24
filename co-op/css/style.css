@@ -976,3 +976,24 @@
 		{
 			color: inherit;
 		}
+
+.bullet
+{
+    list-style-type: disc;
+    text-align: left
+}
+    
+.bullet > li
+{
+    margin-bottom: 0.5em;   
+}
+
+img
+{
+    max-width: 100%;
+}
+
+#apply-button
+{
+    max-width: 65%;
+}
