@@ -997,3 +997,13 @@ img
 {
     max-width: 65%;
 }
+
+#footer-logos
+{
+    text-align: center;
+}
+
+    #footer-logos .footer-logo
+    {
+        margin-bottom: 1em;
+    }
