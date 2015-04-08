@@ -1,0 +1,286 @@
+{
+ "name": "Europe",
+ "children": [
+  {
+   "name": "Africa",
+   "children": [
+    {
+     "name": "RTE - 804 - Southern Africa - OPEN",
+     "children": [
+      {"name": "RTE - Southern Africa", "size": 3938},
+      {
+		"name": "RTE - Southern Africa - OPEN", "size": 3812,
+		"children": [
+			{"name": "Territory 826", "size": 3712}
+		]
+	  }
+     ]
+    },
+    {
+     "name": "RTE - Dieter Vansteenkiste",
+     "children": [
+      {
+		"name": "RTE - Xavier Péters", "size": 3534,
+		"children": [
+			{"name": "RTE - Area Manager", "size": 3712},
+			{"name": "RTE - Née, Jean-Louis", "size": 3712},
+			{"name": "RTE - Regional Manager", "size": 3712}
+		]
+	  }
+     ]
+    },
+    {
+     "name": "RTE - Southern Africa",
+     "children": [
+      {"name": "AspectRatioBanker", "size": 7074}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "RTE - 801 - Dieter Vansteenkiste",
+   "children": [
+    {
+		"name": "Area 801/829", "size": 17010,
+		"children": [
+      {"name": "RTE - Cannetti", "size": 1983},
+      {"name": "Territory 801/829/8AM", "size": 2047}
+     ]
+	},
+    {
+		"name": "RTE - Alfredo Perini", "size": 5842,
+		"children": [
+      {"name": "RTE - 811 - Unassigned", "size": 1983},
+	  {"name": "RTE - 8AM - Perini", "size": 1983},
+      {"name": "RTE - Barbieri, Andrea", "size": 2047},
+      {"name": "RTE - Capponi, Carlo", "size": 1375},
+      {"name": "RTE - Caprini, Andrea", "size": 8746},
+      {"name": "RTE - De Luca", "size": 2202},
+      {"name": "RTE - Fanfano, Lino", "size": 1382},
+      {"name": "RTE - Giovanni Battista Ghedin", "size": 1629},
+      {"name": "RTE - Macillis, Marco", "size": 1675},
+      {"name": "RTE - Russo, Mario", "size": 2047}
+     ]
+	},
+    {
+     "name": "RTE - Aris Vouris",
+     "children": [
+      {"name": "RTE - 812 - Unassigned", "size": 1983},
+      {"name": "RTE - 8AM - Vouris", "size": 2047},
+      {"name": "RTE - Aris Vouris", "size": 1375}
+     ]
+    },
+    {
+	  "name": "RTE - Benelux - OPEN", "size": 5842,
+	  "children": [
+      {"name": "RTE - 813 - Unassigned", "size": 1983},
+	  {"name": "RTE - 8AM Benelux", "size": 1983},
+      {"name": "RTE - Basendeka, André", "size": 2047},
+      {"name": "RTE - Benelux", "size": 1375},
+      {"name": "RTE - Bousard, Eric", "size": 8746},
+      {"name": "RTE - Bouw, Jan", "size": 2202},
+      {"name": "RTE - Mermilod, Christophe", "size": 1382},
+      {"name": "RTE - Ratz, Gerwin", "size": 1629},
+      {"name": "RTE - Suarez, Luis", "size": 1675}
+     ]
+	},
+    {
+     "name": "RTE - Joseba Sarasondo",
+     "children": [
+      {"name": "RTE - 814 - 8UA", "size": 1983},
+      {"name": "RTE - 8AM - Sarasondo", "size": 2047},
+      {"name": "RTE - Castelltort, Manel", "size": 1375},
+	  {"name": "RTE - Fernandez, Rafaël", "size": 1375}
+     ]
+    },
+    {
+	  "name": "RTE - Xavier Péters", "size": 5842,
+	  "children": [
+      {"name": "RTE - 815 - 8UA", "size": 1983},
+	  {"name": "RTE - 8AM - Peters", "size": 1983},
+      {"name": "RTE - Basendeka - France", "size": 2047},
+      {"name": "RTE - Christophe Mermillod-Anselme", "size": 1375},
+      {"name": "RTE - Fernandez, Rafaël", "size": 8746},
+      {"name": "RTE - Ficheux, Didier", "size": 2202},
+      {"name": "RTE - Née, Jean-Louis", "size": 1382},
+      {"name": "RTE - Suarez, Luis", "size": 1629},
+      {"name": "RTE - Xavier Peters", "size": 1675}
+     ]
+	}
+   ]
+  },
+  {
+   "name": "Eastern Europe",
+   "children": [
+    {
+     "name": "RTE - 806 - Andrey Makarov",
+     "children": [
+      {
+		"name": "RTE - Andrey Makarov", "size": 721,
+		"children": [
+		{"name": "RTE - 816 - 861", "size": 8833},
+		{"name": "RTE - 816 - 8AM", "size": 1732},
+		{"name": "RTE - 816 - Makarov", "size": 3623},
+		{"name": "RTE - Alexey Sychev", "size": 8833},
+		{"name": "RTE - Ivannikov, Pavel", "size": 1732},
+		{"name": "RTE – Kopzhassarov, Shansharkhan", "size": 3623},
+		{"name": "RTE - Petrashevich, Alexander", "size": 8833},
+		{"name": "RTE - Rakitin, Egor", "size": 1732},
+		{"name": "Territory 870", "size": 3623},
+		{"name": "Ural Region", "size": 10066}
+		]
+	  }
+     ]
+    },
+    {"name": "RTE - 801 - Dieter Vansteenkiste", "size": 1759},
+    {
+		"name": "RTE - Dieter Vansteenkiste", "size": 721,
+		"children": [
+		{"name": "RTE - Alfredo Perini", "size": 8833},
+		{
+			"name": "RTE - Damir Simunac", "size": 1732,
+			"children": [
+				{"name": "RTE - 818 - 8UA", "size": 8833},
+				{"name": "RTE - 8AM - Simunac Damir", "size": 1732},
+				{"name": "RTE - Simunac, Damir", "size": 3623},
+				{"name": "RTE - Zagradjanin, Predrag", "size": 10066}
+			]
+		}
+		]
+	},
+    {
+		"name": "RTE - Kiwior Krzysztof", "size": 586,
+		"children": [
+			{"name": "RTE - 820 - 8AM", "size": 8833},
+			{"name": "RTE - 820 - 8UA", "size": 1732},
+			{"name": "RTE - Mackocki, Ireneusz", "size": 8833},
+			{"name": "RTE - Makocki, Ireneusz", "size": 1732},
+			{"name": "RTE - Wegierski, Blazej", "size": 3623},
+			{"name": "Territory 820", "size": 10066}
+		]
+	},
+    {
+		"name": "RTE - Marc Vandevelde", "size": 3331,
+		"children": [
+			{
+				"name": "RTE - Michael Poulsen", "size": 8833,
+				"children": [
+				{"name": "RTE - Area Manager", "size": 8833}
+			   ]
+			}
+		]
+	},
+    {"name": "RTE - Markus Tschopp", "size": 772},
+    {
+		"name": "Ufuk Tasli", "size": 3322,
+		"children": [
+			{
+				"name": "Ufuk Tasli", "size": 8833,
+				"children": [
+				{"name": "RTE - Area Manager", "size": 8833}
+			   ]
+			}
+		]
+	}
+   ]
+  },
+  {
+   "name": "Middle East",
+   "children": [
+    {"name": "Middle East - 335", "size": 8833},
+    {
+		"name": "RTE - 803 - Ufuk Tasli", "size": 1732,
+		"children": [
+			{
+				"name": "RTE - Ufuk Tasli", "size": 8833,
+				"children": [
+				{"name": "Ashfaq Awan - SA, BH, KW", "size": 8833},
+				{"name": "RTE - 824 - 8AM", "size": 8833},
+				{"name": "RTE - Ashfaq, Awan", "size": 8833},
+				{"name": "RTE - Kizilcan, Tugcan", "size": 8833},
+				{"name": "RTE - Sinan Ozturk", "size": 8833},
+				{"name": "RTE - Taha Bayraktar", "size": 8833}
+			   ]
+			},
+			{
+				"name": "Ufuk Tasli", "size": 3623,
+				"children": [
+				{"name": "RTE - Area Manager", "size": 8833}
+			   ]
+			}
+		]
+	},
+    {
+		"name": "RTE - Dieter Vansteenkiste", "size": 3623,
+		"children": [
+			{
+				"name": "RTE - Xavier Péters", "size": 4116,
+				"children": [
+				{"name": "RTE - Area Manager", "size": 4116}
+			   ]
+			}
+		]
+	},
+    {
+		"name": "RTE - Ufuk Tasli", "size": 10066,
+		"children": [
+			{
+				"name": "Middle East", "size": 4116,
+				"children": [
+				{"name": "Territory 336", "size": 8833},
+				{"name": "Territory 337", "size": 8833},
+				{"name": "Territory 342", "size": 8833},
+				{"name": "Territory 847", "size": 8833}
+			   ]
+			}
+		   ]
+	}
+   ]
+  },
+  {
+   "name": "RTE - 802 - Marc Vandevelde",
+   "children": [
+    {
+		"name": "RTE - 805 - Markus Tschopp", "size": 4116,
+		"children": [
+				{
+					"name": "RTE - Markus Tschopp", "size": 8833,
+					"children": [
+							{"name": "RTE - 821 - 8AM", "size": 8833},
+							{"name": "RTE - 821 - Tschopp", "size": 8833},
+							{"name": "RTE - CH Distributors C1", "size": 8833},
+							{"name": "RTE - CH Distributors C2", "size": 8833},
+							{"name": "RTE - CH Non Comm Cust", "size": 8833},
+							{"name": "RTE - Tiefenauer, Daniel", "size": 8833},
+							{"name": "RTE - CH Wholesalers", "size": 8833}
+						   ]
+				},
+				{
+					"name": "RTE - Michael Bruchhaus", "size": 8833,
+					"children": [
+							{"name": "RTE - 822 - 8AM", "size": 8833},
+							{"name": "RTE - 822 - Bruchhaus", "size": 8833},
+							{"name": "RTE - Kloepfel, Heiner", "size": 8833},
+							{"name": "RTE - Manfred Huber", "size": 8833},
+							{"name": "RTE - Roland Fantisch", "size": 8833},
+							{"name": "RTE - Sliwinski, Dirk", "size": 8833},
+							{"name": "RTE - Steffen Bartel", "size": 8833},
+							{"name": "RTE - Zielinski, Thomas", "size": 8833}
+						   ]
+				},
+				{
+					"name": "RTE - Roland Fantisch", "size": 8833,
+					"children": [
+							{"name": "RTE - Fantisch, Roland", "size": 8833},
+							{"name": "RTE - Manfred Huber", "size": 8833},
+							{"name": "RTE - Roland Fantisch", "size": 8833},
+							{"name": "RTE - Steffen Bartel", "size": 8833},
+							{"name": "Territory 805/827/8AM", "size": 8833}
+						   ]
+				}
+			   ]
+	}
+   ]
+  }
+ ]
+}
