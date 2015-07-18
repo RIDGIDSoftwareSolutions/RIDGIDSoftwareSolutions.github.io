@@ -41,9 +41,9 @@ p.lead {
 
 a {
     color: #28c3ab;
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
+    -webkit-transition: all .05s ease-in-out;
+    -moz-transition: all .05s ease-in-out;
+    transition: all .05s ease-in-out;
 }
 
 a:hover,
@@ -100,9 +100,9 @@ a:focus {
 }
 
 .navbar-custom.top-nav-collapse ul.nav li a {
-	    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
+	    -webkit-transition: all .05s ease-in-out;
+    -moz-transition: all .05s ease-in-out;
+    transition: all .05s ease-in-out;
 	color: #fff;
 }
 
@@ -132,9 +132,9 @@ a:focus {
 }
 
 .navbar-custom .nav li a {
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
+    -webkit-transition: background .05s ease-in-out;
+    -moz-transition: background .05s ease-in-out;
+    transition: background .05s ease-in-out;
 }
 
 .navbar-custom .nav li a:hover,
@@ -237,7 +237,7 @@ a:focus {
   border-radius: 0px;
   border: 5px solid #FF4136;
   box-shadow: 10px 0px #39CCCC, 10px 0px #01FF70;
-  animation: shadowSpin 1s ease-in-out infinite;
+  animation: shadowSpin 0.05s ease-in-out infinite;
 }
 
 /* misc */
@@ -399,8 +399,8 @@ hr {
     text-align: center;
     background: #3bbec0;
 	color: #fff;
-    -webkit-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
+    -webkit-transition: background .05s ease-in-out;
+    transition: background .05s ease-in-out;
 }
 .team-social a i{
 	text-align: center;
@@ -491,8 +491,8 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
     text-align: center;
     background: #3bbec0;
 	color: #fff;
-    -webkit-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
+    -webkit-transition: background .05s ease-in-out;
+    transition: background .05s ease-in-out;
 }
 .company-social a i{
 	text-align: center;
@@ -576,9 +576,9 @@ Parallax
     text-transform: uppercase;
     font-family: Montserrat,sans-serif;
     font-weight: 400;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
+    -webkit-transition: all .05s ease-in-out;
+    -moz-transition: all .05s ease-in-out;
+    transition: all .05s ease-in-out;
 }
 
 
@@ -592,9 +592,9 @@ Parallax
     font-size: 40px;
     color: #fff;
     background: 0 0;
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
+    -webkit-transition: background .05s ease-in-out;
+    -moz-transition: background .05s ease-in-out;
+    transition: background .05s ease-in-out;
 }
 
 .btn-circle.btn-dark {
@@ -624,16 +624,16 @@ Parallax
 
 .page-scroll .btn-circle i.animated {
     -webkit-transition-property: -webkit-transform;
-    -webkit-transition-duration: 1s;
+    -webkit-transition-duration: .05s;
     -moz-transition-property: -moz-transform;
-    -moz-transition-duration: 1s;
+    -moz-transition-duration: .05s;
 }
 
 .page-scroll .btn-circle:hover i.animated {
     -webkit-animation-name: pulse;
     -moz-animation-name: pulse;
-    -webkit-animation-duration: 1.5s;
-    -moz-animation-duration: 1.5s;
+    -webkit-animation-duration: 0.05s;
+    -moz-animation-duration: 0.05s;
     -webkit-animation-iteration-count: infinite;
     -moz-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
@@ -722,9 +722,9 @@ Parallax
         border-bottom: 0;
         letter-spacing: 1px;
         background: 0 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -webkit-transition: background .05s ease-in-out,padding .05s ease-in-out;
+        -moz-transition: background .05s ease-in-out,padding .05s ease-in-out;
+        transition: background .05s ease-in-out,padding .05s ease-in-out;
     }
 
     .top-nav-collapse {
