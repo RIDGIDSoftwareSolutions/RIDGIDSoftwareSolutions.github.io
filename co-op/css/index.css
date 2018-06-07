@@ -1,15 +1,15 @@
 header {
-  padding: 154px 0 100px;
+    padding: 154px 0 100px;
 }
 
 @media (min-width: 992px) {
-  header {
-    padding: 156px 0 100px;
-  }
+    header {
+        padding: 156px 0 100px;
+    }
 }
 
 section {
-  padding: 150px 0;
+    padding: 150px 0;
 }
 
 .overlay-background {
@@ -17,13 +17,19 @@ section {
     height: 400px;
 }
 
-.overlay-text {
-    height: 110px;
-    width: 651px;
-    color: #FFFFFF;
+.header-text, .color, .white {
+    padding-bottom: 15px;
     font-size: 44px;
     font-weight: 300;
     line-height: 55px;
+}
+
+.white {
+   color: white;
+}
+
+.color {
+    color: #2D383F;
 }
 
 .bg-black {
@@ -31,10 +37,19 @@ section {
 }
 
 #narrow-black-top {
-	height: 25px;
-	background-color: black;
+  	height: 25px;
+  	background-color: black;
 }
 
 .text-right {
-	text-align: right;
+	 text-align: right;
+}
+
+.p-text {
+  height: 416px; 
+  width: 500px; 
+  color: #2D383F;
+  font-size: 16px;  
+  font-weight: 300; 
+  line-height: 26px;
 }
