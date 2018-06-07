@@ -68,3 +68,12 @@ section {
     line-height: 44px;
     text-align: center;
 }
+
+#who-we-are-text {
+    height: auto;
+    width: auto;
+    color: #2D383F;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+}
