@@ -9,7 +9,7 @@ header {
 }
 
 section {
-    padding: 150px 0;
+    padding: 100px 0;
 }
 
 .overlay-background {
@@ -39,17 +39,32 @@ section {
 #narrow-black-top {
   	height: 25px;
   	background-color: black;
+    color: #CECECE;
+}
+
+.off-white-text {
+    color: #CECECE;
 }
 
 .text-right {
 	 text-align: right;
 }
 
-.p-text {
-  height: 416px; 
-  width: 500px; 
+#experience-text {
+  height: auto; 
+  width: auto; 
   color: #2D383F;
   font-size: 16px;  
   font-weight: 300; 
   line-height: 26px;
+}
+
+#looking-for-text {
+    height: auto;
+    width: auto;
+    color: #2D383F;
+    font-size: 27px;
+    font-weight: 300;
+    line-height: 44px;
+    text-align: center;
 }
