@@ -12,14 +12,16 @@ section {
     font-size: 44px;
     font-weight: 300;
     line-height: 55px;
+    color: #2D383F;
 }
 
 .white {
    color: white;
 }
 
-.grey-color {
+.nav-link {
     color: #2D383F;
+    white-space: nowrap;
 }
 
 .apply-bar-color {
