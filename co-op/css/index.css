@@ -74,6 +74,16 @@ section {
     line-height: 26px;
 }
 
+#join-the-team-text {
+    height: auto;
+    width: auto;
+    color: #2D383F;
+    font-size: 27px;
+    font-weight: 300;
+    line-height: 44px;
+    text-align: center;
+}
+
 #map-text {
     color: #2D383F; 
     font-size: 23px;  
@@ -114,7 +124,7 @@ section {
     width: 511px;
 }
 
-#location-housing-title {
+.extra-title-padding {
     padding-bottom: 35px;
 }
 
