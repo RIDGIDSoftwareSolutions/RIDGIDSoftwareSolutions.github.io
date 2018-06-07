@@ -37,16 +37,16 @@ section {
 }
 
 .text-right {
-	 text-align: right;
+    text-align: right;
 }
 
 #experience-text {
-  height: auto; 
-  width: auto; 
-  color: #2D383F;
-  font-size: 16px;  
-  font-weight: 300; 
-  line-height: 26px;
+    height: auto; 
+    width: auto; 
+    color: #2D383F;
+    font-size: 16px;  
+    font-weight: 300; 
+    line-height: 26px;
 }
 
 #looking-for-text {
@@ -67,6 +67,16 @@ section {
     font-weight: 300;
     line-height: 26px;
 }
+
+#map-text {
+    height: 352px;  
+    width: 589px; 
+    color: #2D383F; 
+    font-size: 23px;  
+    font-weight: 300; 
+    line-height: 44px;
+}
+
 .clever-sentence-text {
     height: 110px;
     width: 651px;
@@ -92,4 +102,11 @@ section {
     letter-spacing: 1.17px;
     line-height: 16px;
     text-align: center
+}
+
+#gmap_canvas {
+    max-width: none!important;
+    background: none!important;
+    height: 391px;
+    width: 511px;
 }
