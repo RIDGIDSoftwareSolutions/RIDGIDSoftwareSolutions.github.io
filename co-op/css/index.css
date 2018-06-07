@@ -77,3 +77,20 @@ section {
     font-weight: 300;
     line-height: 26px;
 }
+
+.apply-button {
+    height: 50px;
+    width: 280px;
+    background-color: #004B8D;
+    
+}
+
+.apply-button-text {
+    border: #000000;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1.17px;
+    line-height: 16px;
+    text-align: center
+}
