@@ -18,6 +18,16 @@ section {
   padding: 150px 0;
 }
 
-.bg-black {
-    background-color: #000000;
+.overlay-background {
+    background-color: #000000 !important;
+    height: 400px;
+}
+
+.overlay-text {
+    height: 110px;
+    width: 651px;
+    color: #FFFFFF;
+    font-size: 44px;
+    font-weight: 300;
+    line-height: 55px;
 }
