@@ -7,7 +7,7 @@ section {
     height: 400px;
 }
 
-.header-text, .color, .white {
+.header-text {
     padding-bottom: 15px;
     font-size: 44px;
     font-weight: 300;
@@ -18,8 +18,12 @@ section {
    color: white;
 }
 
-.color {
+.grey-color {
     color: #2D383F;
+}
+
+.apply-bar-color {
+    color: #005695;
 }
 
 .bg-black {
@@ -81,7 +85,6 @@ section {
     height: 110px;
     width: 651px;
     color: #FFFFFF;
-    font-family: "Whitney SSm";
     font-size: 44px;
     font-weight: 300;
     line-height: 55px;
