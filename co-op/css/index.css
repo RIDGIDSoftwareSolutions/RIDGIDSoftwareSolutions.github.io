@@ -67,6 +67,15 @@ section {
     font-weight: 300;
     line-height: 26px;
 }
+.clever-sentance-text {
+    height: 110px;
+    width: 651px;
+    color: #FFFFFF;
+    font-family: "Whitney SSm";
+    font-size: 44px;
+    font-weight: 300;
+    line-height: 55px;
+}
 
 .apply-button {
     height: 50px;
