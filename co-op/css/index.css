@@ -75,8 +75,6 @@ section {
 }
 
 #map-text {
-    height: 352px;  
-    width: 589px; 
     color: #2D383F; 
     font-size: 23px;  
     font-weight: 300; 
@@ -114,4 +112,12 @@ section {
     background: none!important;
     height: 391px;
     width: 511px;
+}
+
+#location-housing-title {
+    padding-bottom: 35px;
+}
+
+#address-text {
+    margin-bottom: 0;
 }
