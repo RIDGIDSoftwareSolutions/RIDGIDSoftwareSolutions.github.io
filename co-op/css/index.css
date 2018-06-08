@@ -13,11 +13,10 @@ footer {
 }
 
 .header-text {
-    padding-bottom: 15px;
-    font-size: 44px;
-    font-weight: 300;
-    line-height: 55px;
     color: #2D383F;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 40px;
 }
 
 .white {
@@ -208,4 +207,26 @@ footer {
     max-width: 100%;
     height: auto;
     display: block;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../images/chevron-left.png);
+}
+
+.carousel-control-next-icon {
+    background-image: url(../images/chevon-right.png);
+}
+
+.carousel-header-text {
+    color: #2D383F;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.carousel-innter-text {
+    color: #2D383F;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
 }
