@@ -2,6 +2,11 @@ section {
     padding: 100px 0;
 }
 
+footer {
+    height: 100px;
+    background-color: #000000;
+}
+
 .overlay-background {
     background-color: #000000 !important;
     height: 400px;
@@ -139,4 +144,15 @@ section {
 
 #main-nav {
     height: 75px;
+}
+
+.footer-container {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.footer-legal {
+    color: white;
+    margin-left: -15px
 }
