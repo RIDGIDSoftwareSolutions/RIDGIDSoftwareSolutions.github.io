@@ -24,6 +24,11 @@ section {
     white-space: nowrap;
 }
 
+.navbar-nav {
+    padding-left: 100px; 
+    font-size: small
+}
+
 .apply-bar-color {
     color: #005695;
 }
@@ -130,4 +135,8 @@ section {
 
 #address-text {
     margin-bottom: 0;
+}
+
+#main-nav {
+    height: 75px;
 }
