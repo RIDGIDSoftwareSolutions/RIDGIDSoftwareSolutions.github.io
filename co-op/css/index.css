@@ -154,16 +154,14 @@ footer {
 
 .footer-legal {
     color: white;
-
     margin-left: -15px;
-
-    padding-top: 15px
-
+    padding-top: 15px;
+    white-space: nowrap;
 }
 
 .ridgid-rights {
     padding-top: 20px;
-    color: white
+    color: #909090;
 }
 #apply-now {
     background-color: #7B9BAA;
@@ -196,6 +194,11 @@ footer {
     padding-left: 800px;
 }
 
+.legal-text {
+    color: #CECECE;
+    font-size: 13px;
+    font-weight: 500;
+}
 .social-media-icons {
     padding-right: 15px;
     margin-top: -15px
