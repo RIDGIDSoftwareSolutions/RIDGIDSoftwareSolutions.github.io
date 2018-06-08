@@ -154,9 +154,17 @@ footer {
 
 .footer-legal {
     color: white;
-    margin-left: -15px
+
+    margin-left: -15px;
+
+    padding-top: 15px
+
 }
 
+.ridgid-rights {
+    padding-top: 20px;
+    color: white
+}
 #apply-now {
     background-color: #7B9BAA;
     color: white;
@@ -182,4 +190,13 @@ footer {
 
 .apply-image {
     padding-bottom: 15px;
+}
+
+.social-media {
+    padding-left: 800px;
+}
+
+.social-media-icons {
+    padding-right: 15px;
+    margin-top: -15px
 }
