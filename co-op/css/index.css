@@ -261,3 +261,7 @@ a:hover, .btn:hover {
     color: #005695;
     text-decoration: underline;
 }
+
+.auto-margin {
+    margin: auto;
+}
