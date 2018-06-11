@@ -127,11 +127,11 @@ footer {
     text-align: center
 }
 
-#gmap_canvas {
+#gmap-canvas {
     max-width: none!important;
     background: none!important;
-    height: 391px;
-    width: 511px;
+    height: 390px;
+    width: 510px;
 }
 
 .extra-title-padding {

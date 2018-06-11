@@ -201,9 +201,7 @@
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <div style='overflow:hidden;height:440px;width:575px;'>
-                        <div id="gmap_canvas"></div>
-                    </div>
+                    <div id="gmap-canvas"></div>
                 </div>
                 <div id="map-text" class="col-md-6">
                     <p id="address-text">The Ridge Tool Company is located at:</p>
@@ -242,7 +240,7 @@
                                             </p>
                                         </div>
                                         <div class="col-md-6 text-center">
-                                            <img src="images/closet-maid.png" alt="Closet Maid Calculator" />
+                                            <img src="images/closet-maid.png" alt="ClosetMaid Calculator" />
                                         </div>
                                     </div>
                                 </div>
@@ -320,54 +318,53 @@
         </div>
     </section>
 
-<footer>
-    <div class="container footer-container">
-        <div class="row">
-            <div class="col-md-12 ridgid-rights">
-                © 2018 RIDGID ONLINE, Inc All rights reserved
-                <div class="row footer-legal">
-                    <div class="col-1 sm-6">
-                        <a class="legal-text" href="https://www.emerson.com/en-us/privacy-notice">Privacy Policy</a>
-                    </div>
-                    <div class="col-1 sm-6">
-                        <a class="legal-text" href="http://www.emerson.com/en-us/terms-of-use">Terms of Use</a>
-                    </div>
-                    <div class="offset-md-6 social-media-icons">
-                        <a href="https://www.facebook.com/RIDGIDTools" id="logo">
-                            <img src="images/ic-facebook.png" alt="RIDGID Software Solutions Facebook "/>
-                        </a>
-                    </div>
-                    <div class="social-media-icons">
-                        <a href="https://twitter.com/ridgidtoday" id="logo">
-                            <img src="images/ic-twitter.png" alt="RIDGID Software Solutions Twitter"/>
-                        </a>
-                    </div>
-                    <div class="social-media-icons">
-                        <a href="https://www.youtube.com/user/RIDGIDtoday" id="logo">
-                            <img src="images/ic-youtube.png" alt="RIDGID Software Solutions Youtube"/>
-                        </a>
-                    </div>
-                    <div class="social-media-icons">
-                        <a href="https://www.instagram.com/ridgidtools/" id="logo">
-                            <img src="images/ic-instagram.png" alt="RIDGID Software Solutions Instagram"/>
-                        </a>
-                    </div>
-                    <div class="social-media-icons">
-                        <a href="https://www.linkedin.com/showcase/ridge-tool-company" id="logo">
-                            <img src="images/ic-linked-in.png" alt="RIDGID Software Solutions Linked-In"/>
-                        </a>
-                    </div>
-                    <div class="social-media-icons">
-                        <a href="https://www.ridgidforum.com/"" id="logo">
-                            <img src="images/ic-forum.png" alt="RIDGID Software Solutions Forum"/>
-                        </a>
+    <footer>
+        <div class="container footer-container">
+            <div class="row">
+                <div class="col-md-12 ridgid-rights">
+                    © 2018 RIDGID ONLINE, Inc All rights reserved
+                    <div class="row footer-legal">
+                        <div class="col-1 sm-6">
+                            <a class="legal-text" href="https://www.emerson.com/en-us/privacy-notice">Privacy Policy</a>
+                        </div>
+                        <div class="col-1 sm-6">
+                            <a class="legal-text" href="http://www.emerson.com/en-us/terms-of-use">Terms of Use</a>
+                        </div>
+                        <div class="offset-md-6 social-media-icons">
+                            <a href="https://www.facebook.com/RIDGIDTools" id="logo">
+                                <img src="images/ic-facebook.png" alt="RIDGID Software Solutions Facebook "/>
+                            </a>
+                        </div>
+                        <div class="social-media-icons">
+                            <a href="https://twitter.com/ridgidtoday" id="logo">
+                                <img src="images/ic-twitter.png" alt="RIDGID Software Solutions Twitter"/>
+                            </a>
+                        </div>
+                        <div class="social-media-icons">
+                            <a href="https://www.youtube.com/user/RIDGIDtoday" id="logo">
+                                <img src="images/ic-youtube.png" alt="RIDGID Software Solutions Youtube"/>
+                            </a>
+                        </div>
+                        <div class="social-media-icons">
+                            <a href="https://www.instagram.com/ridgidtools/" id="logo">
+                                <img src="images/ic-instagram.png" alt="RIDGID Software Solutions Instagram"/>
+                            </a>
+                        </div>
+                        <div class="social-media-icons">
+                            <a href="https://www.linkedin.com/showcase/ridge-tool-company" id="logo">
+                                <img src="images/ic-linked-in.png" alt="RIDGID Software Solutions Linked-In"/>
+                            </a>
+                        </div>
+                        <div class="social-media-icons">
+                            <a href="https://www.ridgidforum.com/"" id="logo">
+                                <img src="images/ic-forum.png" alt="RIDGID Software Solutions Forum"/>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</footer>
-
+    </footer>
 
     <!-- JS for Bootstrap -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -378,6 +375,6 @@
 
     <!-- Google Maps Scripts -->
     <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDXkQpHXsS5CGgNUP1NIsQqfAMxchZXZN0'></script>
-    <script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(41.3698264,-82.09027470000001),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(41.3698264,-82.09027470000001)});infowindow = new google.maps.InfoWindow({content:'<strong>The Ridge Tool Company</strong><br>400 Clark Street, Elyria, OH 44035<br>'});google.maps.event.addListener(marker, 'click', function(){window.open('https://goo.gl/maps/dPitfy81jGL2')});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);marker.on()</script>
+    <script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(41.3698264,-82.09027470000001),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap-canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(41.3698264,-82.09027470000001)});infowindow = new google.maps.InfoWindow({content:'<strong>The Ridge Tool Company</strong><br>400 Clark Street, Elyria, OH 44035<br>'});google.maps.event.addListener(marker, 'click', function(){window.open('https://goo.gl/maps/dPitfy81jGL2')});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
 </body>
 </html>
