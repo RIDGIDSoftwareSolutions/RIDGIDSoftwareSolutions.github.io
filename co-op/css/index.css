@@ -251,3 +251,13 @@ a:hover, .btn:hover {
     color: white;
     text-decoration: underline;
 } 
+
+.nav-link:hover {
+    color: #2D383F;
+    text-decoration: underline;
+}
+
+.apply-bar-color:hover {
+    color: #005695;
+    text-decoration: underline;
+}
