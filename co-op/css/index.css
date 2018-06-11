@@ -200,10 +200,13 @@ footer {
     font-weight: 500;
 }
 .social-media-icons {
-    padding-right: 15px;
+    padding-right: 30px;
     margin-top: -15px
 }
 
+.lg-group-img {
+    max-width: 800px
+}
 .img-responsive {
     max-width: 100%;
     height: auto;
