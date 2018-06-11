@@ -213,6 +213,10 @@ footer {
     display: block;
 }
 
+.join-team-small {
+    width: 335px;
+    height: 205px
+}
 .carousel-control-prev-icon {
     background-image: url(../images/chevron-left.png);
 }
