@@ -123,7 +123,7 @@ footer {
     font-weight: 600;
     font-size: 14px;
     letter-spacing: 1.17px;
-    line-height: 16px;
+    line-height: 35px;
     text-align: center
 }
 
@@ -242,3 +242,12 @@ footer {
 .carousel {
     height: 500px;
 }
+
+.btn {
+    border-radius: 0;
+}
+
+a:hover, .btn:hover {
+    color: white;
+    text-decoration: underline;
+} 
