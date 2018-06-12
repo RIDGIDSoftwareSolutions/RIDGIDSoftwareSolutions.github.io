@@ -294,3 +294,7 @@ a:hover, .btn:hover {
     font-weight: 300;
     line-height: 38px;
 }
+
+.navbar-toggler-icon {
+	background-image: url(../images/hamburger-menu.png);
+}
