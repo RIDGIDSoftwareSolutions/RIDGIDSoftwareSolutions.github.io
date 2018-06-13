@@ -347,6 +347,12 @@ a:hover, .btn:hover {
     .carousel {
         height: 700px
     }
+    #apply-now {
+        background-color: #7B9BAA;
+        color: white;
+        height: 575px;
+        padding-top: 90px;
+    }
 }
 
 @media (max-width: 768px) {
