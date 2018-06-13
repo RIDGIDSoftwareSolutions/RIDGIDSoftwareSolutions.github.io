@@ -311,6 +311,10 @@ a:hover, .btn:hover {
 	text-decoration: underline;
 }
 
+#our-work-nav {
+	padding-right: 60px;
+}
+
 /*Media queries*/
 @media (max-width: 1199px) {
 	#narrow-black-top .col-9 {
