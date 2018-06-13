@@ -297,6 +297,10 @@ a:hover, .btn:hover {
 	    margin-left: -35px;
 	}
 
+    .privacy-policy {
+        padding-right: 75px
+    }
+
 	.navbar-nav {
 		padding-left: 0;
 	}
@@ -359,6 +363,27 @@ a:hover, .btn:hover {
     #map-text {
     	padding-top: 10px;
     }
+
+    .ridgid-rights {
+        padding-top: 50px;
+    }
+
+    .social-media-icons {
+        margin-top: -70px;
+        padding-right: 35px
+    }
+    .first-icon {
+        margin-left: -115px
+    }
+
+    .privacy-policy {
+        margin-top: -15px;
+        padding-right: 75px
+    }
+    
+    .terms-policy {
+        margin-top: -15px
+    }
 }
 
 @media (max-width: 768px) {
@@ -373,4 +398,22 @@ a:hover, .btn:hover {
 		padding-left: 155px;
 		margin-left: -146px;
 	}
+}
+
+@media (max-width: 469px) {
+
+    .first-icon {
+        margin-left: -110px
+    }
+    .social-media-icons {
+        padding-right: 10px
+    }
+
+}
+
+@media (max-width: 422px) {
+    
+    .first-icon {
+        margin-left: -105px
+    }
 }
