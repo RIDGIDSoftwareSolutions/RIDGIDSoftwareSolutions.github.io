@@ -391,6 +391,15 @@ a:hover, .btn:hover {
 	   text-align: center !important;
 	   margin-left: -120px;
 	}
+
+    .apply-button {
+        width: 100%
+    }
+
+    .clever-sentence-text {
+        text-align: center
+    }
+
 }
 
 @media (max-width: 546px) {
