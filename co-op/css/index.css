@@ -22,6 +22,13 @@ footer {
     padding-bottom: 15px;
 }
 
+.carousel-title-text {
+    color: #2D383F;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 40px;
+    padding-bottom: 15px;
+}
 .white {
    color: white;
 }
@@ -224,13 +231,6 @@ footer {
     width: 335px;
     height: 205px
 }
-.carousel-control-prev-icon {
-    background-image: url(../images/chevron-left.png);
-}
-
-.carousel-control-next-icon {
-    background-image: url(../images/chevon-right.png);
-}
 
 .carousel-header-text {
     color: #2D383F;
@@ -322,10 +322,59 @@ a:hover, .btn:hover {
 	.social-media-icons {
 		padding-right: 15px;
 	}
+
+    .carousel {
+        height: 350px;
+    }
+
+    .carousel-image {
+        height: 350px;
+    }
 }
 
 @media (max-width: 992px) {
 	.social-media-icons {
 		padding-right: 5px;
 	}
+
+    .carousel {
+        height: 200px;
+    }
+
+    .carousel-image {
+        height: 200px;
+    }
+
+    .carousel-indicators li {
+        background-color: #C4CED1;
+        height: 6px;
+        width: 6px;
+        border-radius: 3px;
+    }
+
+    .carousel-indicators .active {
+        background-color: #005695;
+    }
+
+    .carousel-header-text {
+        color: #2D383F;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 30px;
+    }
+
+    .carousel-innter-text {
+        color: #2D383F;
+        font-size: 10px;
+        font-weight: 300;
+        line-height: 26px;
+    }
+
+    .carousel-title-text {
+        color: #2D383F;
+        font-size: 25px;
+        font-weight: 300;
+        line-height: 40px;
+        padding-bottom: 15px;
+    }
 }
