@@ -14,7 +14,7 @@ footer {
     background-size: 50% 100%
 }
 
-.header-text {
+.body-header-text {
     color: #2D383F;
     font-size: 36px;
     font-weight: 300;
@@ -70,42 +70,18 @@ footer {
     text-align: right;
 }
 
-#experience-text {
-    height: auto; 
-    width: auto; 
+.small-body-text {
     color: #2D383F;
     font-size: 16px;  
     font-weight: 300; 
     line-height: 26px;
 }
 
-#looking-for-text {
-    height: auto;
-    width: auto;
-    color: #2D383F;
+.large-body-text {
+	color: #2D383F;
     font-size: 27px;
     font-weight: 300;
     line-height: 44px;
-    text-align: center;
-}
-
-#who-we-are-text {
-    height: auto;
-    width: auto;
-    color: #2D383F;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 26px;
-}
-
-#join-the-team-text {
-    height: auto;
-    width: auto;
-    color: #2D383F;
-    font-size: 27px;
-    font-weight: 300;
-    line-height: 44px;
-    text-align: center;
 }
 
 #map-text {
@@ -342,6 +318,7 @@ a:hover, .btn:hover {
 	#narrow-black-top .col-9 {
 	    margin-left: -92px;
 	}
+
 	.social-media-icons {
 		padding-right: 5px;
 	}
@@ -351,11 +328,36 @@ a:hover, .btn:hover {
     .carousel {
         height: 700px
     }
+
     #apply-now {
         background-color: #7B9BAA;
         color: white;
         height: 575px;
         padding-top: 90px;
+    }
+
+    #the-experience {
+    	text-align: center;
+    }
+
+    #the-experience img {
+    	padding-top: 10px;
+    }
+
+    #who-we-are {
+    	text-align: center;
+    }
+
+    #who-we-are .body-header-text {
+    	padding-top: 10px;
+    }
+
+    #location-housing {
+    	text-align: center;
+    }
+
+    #map-text {
+    	padding-top: 10px;
     }
 }
 
