@@ -313,6 +313,10 @@ a:hover, .btn:hover {
 
 /*Media queries*/
 @media (max-width: 1199px) {
+	#narrow-black-top .col-9 {
+	    margin-left: -35px;
+	}
+
 	.navbar-nav {
 		padding-left: 0;
 	}
@@ -331,6 +335,9 @@ a:hover, .btn:hover {
 }
 
 @media (max-width: 992px) {
+	#narrow-black-top .col-9 {
+	    margin-left: -92px;
+	}
 	.social-media-icons {
 		padding-right: 5px;
 	}
@@ -338,6 +345,20 @@ a:hover, .btn:hover {
 
 @media (max-width: 767px) {
     .carousel {
-        height: 550px
+        height: 700px
     }
+}
+
+@media (max-width: 768px) {
+	#narrow-black-top .col-9 {
+	   text-align: center !important;
+	   margin-left: -120px;
+	}
+}
+
+@media (max-width: 546px) {
+	#narrow-black-top .col-9 {
+		padding-left: 155px;
+		margin-left: -146px;
+	}
 }
