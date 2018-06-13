@@ -373,7 +373,7 @@ a:hover, .btn:hover {
         padding-right: 35px
     }
     .first-icon {
-        margin-left: -115px
+        margin-left: -110px
     }
 
     .privacy-policy {
@@ -406,13 +406,17 @@ a:hover, .btn:hover {
         margin-left: -110px
     }
     .social-media-icons {
-        padding-right: 10px
+        padding-right: 25px
     }
 
 }
 
 @media (max-width: 422px) {
     
+    .carousel-image {
+        height: 290px
+    }
+
     .first-icon {
         margin-left: -105px
     }
