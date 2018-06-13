@@ -197,6 +197,7 @@ footer {
 .lg-group-img {
     max-width: 800px
 }
+
 .img-responsive {
     max-width: 100%;
     height: auto;
@@ -261,7 +262,6 @@ a:hover, .btn:hover {
 }
 
 .person-title {
-    height: 30px;
     color: #2D383F;
     font-size: 26px;
     font-style: italic;
@@ -270,7 +270,6 @@ a:hover, .btn:hover {
 }
 
 .person-quote {
-    height: 114px;
     color: #2D383F;
     font-size: 20px;
     font-style: italic;
