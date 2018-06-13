@@ -312,13 +312,11 @@ a:hover, .btn:hover {
 }
 
 /*Media queries*/
-@media (max-width: 992px) {
+@media (max-width: 1199px) {
 	.navbar-nav {
 		padding-left: 0;
 	}
-}
 
-@media (max-width: 1200px) {
 	.social-media-icons {
 		padding-right: 15px;
 	}
