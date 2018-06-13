@@ -334,45 +334,10 @@ a:hover, .btn:hover {
 	.social-media-icons {
 		padding-right: 5px;
 	}
+}
 
+@media (max-width: 767px) {
     .carousel {
-        height: 200px;
-    }
-
-    .carousel-image {
-        height: 200px;
-    }
-
-    .carousel-indicators li {
-        background-color: #C4CED1;
-        height: 6px;
-        width: 6px;
-        border-radius: 3px;
-    }
-
-    .carousel-indicators .active {
-        background-color: #005695;
-    }
-
-    .carousel-header-text {
-        color: #2D383F;
-        font-size: 14px;
-        font-weight: 300;
-        line-height: 30px;
-    }
-
-    .carousel-innter-text {
-        color: #2D383F;
-        font-size: 10px;
-        font-weight: 300;
-        line-height: 26px;
-    }
-
-    .carousel-title-text {
-        color: #2D383F;
-        font-size: 25px;
-        font-weight: 300;
-        line-height: 40px;
-        padding-bottom: 15px;
+        height: 550px
     }
 }
