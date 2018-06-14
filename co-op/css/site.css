@@ -1,3 +1,4 @@
+/*Combined CSS for the index and apply-now pages*/
 section {
     padding: 85px 0;
 }
@@ -281,13 +282,20 @@ a:hover, .btn:hover {
 	background-image: url(../images/hamburger-menu.png);
 }
 
-#map-text a:hover {
+#map-text a:hover, .small-body-text a:hover, .large-body-text a:hover {
 	color: #007BFF;
 	text-decoration: underline;
 }
 
 #our-work-nav {
 	padding-right: 60px;
+}
+
+/*CSS for only the apply-now page*/
+.bullet {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 /*Media queries*/
