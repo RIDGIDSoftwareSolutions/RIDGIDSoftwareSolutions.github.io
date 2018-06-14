@@ -224,8 +224,8 @@ footer {
     line-height: 26px;
 }
 
-.carousel {
-    height: 500px;
+#meet-carousel {
+    height: 430px;
 }
 
 .btn {
@@ -316,8 +316,8 @@ a:hover, .btn:hover {
 		padding-right: 15px;
 	}
 
-    .carousel {
-        height: 350px;
+    #meet-carousel {
+        height: 470px;
     }
 
     .carousel-image {
@@ -333,11 +333,15 @@ a:hover, .btn:hover {
 	.social-media-icons {
 		padding-right: 5px;
 	}
+
+    #meet-carousel {
+        height: 535px;
+    }
 }
 
 @media (max-width: 767px) {
-    .carousel {
-        height: 700px
+    #meet-carousel {
+        height: 850px;
     }
 
     #apply-now {
@@ -359,7 +363,8 @@ a:hover, .btn:hover {
     	text-align: center;
     }
 
-    #who-we-are .body-header-text {
+    #who-we-are .body-header-text, #meet-carousel .col-md-7 {
+        text-align: center !important;
     	padding-top: 10px;
     }
 
