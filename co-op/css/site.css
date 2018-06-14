@@ -228,6 +228,10 @@ footer {
     height: 430px;
 }
 
+#our-work-carousel {
+    height: 550px;
+}
+
 .btn {
     border-radius: 0;
 }
@@ -320,6 +324,10 @@ a:hover, .btn:hover {
         height: 470px;
     }
 
+    #our-work-carousel {
+        height: 400px;
+    }
+
     .carousel-image {
         height: 350px;
     }
@@ -342,6 +350,10 @@ a:hover, .btn:hover {
 @media (max-width: 767px) {
     #meet-carousel {
         height: 850px;
+    }
+
+    #our-work-carousel {
+        height: 610px;
     }
 
     #apply-now {
