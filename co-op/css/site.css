@@ -363,28 +363,16 @@ a:hover, .btn:hover {
         padding-top: 90px;
     }
 
-    #the-experience {
+    #the-experience, #who-we-are, #location-housing {
     	text-align: center;
     }
 
-    #the-experience img {
+    #the-experience img, #map-text {
     	padding-top: 10px;
-    }
-
-    #who-we-are {
-    	text-align: center;
     }
 
     #who-we-are .body-header-text, #meet-carousel .col-md-7 {
         text-align: center !important;
-    	padding-top: 10px;
-    }
-
-    #location-housing {
-    	text-align: center;
-    }
-
-    #map-text {
     	padding-top: 10px;
     }
 
