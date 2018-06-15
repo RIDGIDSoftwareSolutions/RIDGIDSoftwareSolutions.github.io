@@ -350,6 +350,18 @@ a:hover, .btn:hover {
 }
 
 @media (max-width: 767px) {
+    section {
+        padding: 65px 0;
+    }
+    
+    .body-header-text {
+        font-size: 26px;
+    }
+
+    .large-body-text {
+        font-size: 17px;
+    }
+
     #meet-carousel {
         height: 850px;
     }
