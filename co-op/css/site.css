@@ -11,8 +11,8 @@ footer {
 .overlay-background {
     background-color: #000000 !important;
     height: 400px;
-    background-image: url(../images/hackerman.jpg);
-    background-size: 50% 100%;
+    background-image: url(https://cdn2.ridgid.com/Media/Default/localized-media/ResponsiveBanners/HomePage/BFTWKRedesign_1280.jpg);
+    background-size: 100%;
 }
 
 .body-header-text {
@@ -91,8 +91,6 @@ footer {
 }
 
 .clever-sentence-text {
-    height: 110px;
-    width: 651px;
     color: white;
     font-size: 44px;
     font-weight: 300;
