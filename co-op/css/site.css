@@ -193,7 +193,7 @@ footer {
 }
 .social-media-icons {
     padding-right: 30px;
-    margin-top: -15px
+    margin-top: -40px
 }
 
 .lg-group-img {
@@ -319,6 +319,7 @@ a:hover, .btn:hover {
 
 	.social-media-icons {
 		padding-right: 15px;
+        margin-top: -40px
 	}
 
     #meet-carousel {
@@ -340,7 +341,7 @@ a:hover, .btn:hover {
 	}
 
 	.social-media-icons {
-		padding-right: 5px;
+		padding-right: 10px;
 	}
 
     #meet-carousel {
@@ -396,7 +397,7 @@ a:hover, .btn:hover {
     }
 
     .first-icon {
-        margin-left: -118px;
+        margin-left: 15px !important;
     }
 
     .privacy-policy {
@@ -430,17 +431,9 @@ a:hover, .btn:hover {
 		padding-left: 155px;
 		margin-left: -146px;
 	}
-
-    .first-icon {
-        margin-left: -115px;
-    }
 }
 
 @media (max-width: 469px) {
-    .first-icon {
-        margin-left: -110px;
-    }
-
     .social-media-icons {
         padding-right: 25px;
     }
@@ -448,16 +441,11 @@ a:hover, .btn:hover {
     #our-work-carousel {
         height: 640px;
     }
-
 }
 
 @media (max-width: 422px) {
     .carousel-image {
         height: 290px;
-    }
-
-    .first-icon {
-        margin-left: -105px;
     }
 }
 
