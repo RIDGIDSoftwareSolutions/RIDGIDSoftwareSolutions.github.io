@@ -31,10 +31,6 @@ footer {
     padding-bottom: 15px;
 }
 
-.white {
-   color: white;
-}
-
 .nav-link {
     color: #2D383F;
     white-space: nowrap;
@@ -43,10 +39,11 @@ footer {
 .navbar-nav {
     padding-left: 85px; 
     font-size: small;
-    background-color: white;
 }
 
 .navbar-nav > li {
+    max-width: 100%;
+    background-color: white;
 	z-index: 100;
 }
 
@@ -96,7 +93,7 @@ footer {
 .clever-sentence-text {
     height: 110px;
     width: 651px;
-    color: #FFFFFF;
+    color: white;
     font-size: 44px;
     font-weight: 300;
     line-height: 55px;
