@@ -101,7 +101,11 @@ footer {
     height: 50px;
     width: 280px;
     background-color: #004B8D;
-    
+    text-decoration: none
+}
+
+.apply-button:hover {
+    background-color: #00368d
 }
 
 .apply-button-text {
@@ -111,9 +115,15 @@ footer {
     font-size: 14px;
     letter-spacing: 1.17px;
     line-height: 35px;
-    text-align: center
+    text-align: center;
+    text-decoration: none;
 }
 
+a.apply-button-text:hover {
+    text-decoration: none;
+    letter-spacing: 2.15px
+}
+ 
 #gmap-canvas {
     max-width: 100% !important;
     background: none!important;
