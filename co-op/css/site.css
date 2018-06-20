@@ -58,7 +58,14 @@ footer {
 #narrow-black-top {
   	height: 25px;
   	background-color: black;
+}
+
+.narrow-top-text {
     color: #CECECE;
+}
+
+.narrow-top-text:hover {
+    text-decoration: none
 }
 
 .off-white-text {
