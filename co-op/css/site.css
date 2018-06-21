@@ -36,6 +36,10 @@ footer {
     white-space: nowrap;
 }
 
+.navbar-border {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
 .navbar-nav {
     padding-left: 85px; 
     font-size: small;
