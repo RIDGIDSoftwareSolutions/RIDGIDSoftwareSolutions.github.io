@@ -12,7 +12,9 @@ footer {
     background-color: #000000 !important;
     height: 400px;
     background-image: url(https://cdn2.ridgid.com/Media/Default/localized-media/ResponsiveBanners/HomePage/BFTWKRedesign_1280.jpg);
-    background-size: 100%;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center top
 }
 
 .body-header-text {
@@ -245,6 +247,21 @@ a.apply-button-text:hover {
     height: 430px;
 }
 
+
+.carousel-control-prev-icon {
+    height: 70px;
+    width: 35px;
+    margin-left: -220px;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    height: 70px;
+    width: 35px;
+    margin-right: -200px;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
 #our-work-carousel {
     height: 550px;
 }
@@ -454,6 +471,21 @@ a:hover, .btn:hover {
         text-align: center;
     }
 
+}
+
+@media (max-width: 677px) {
+
+    .carousel-control-prev-icon {
+        content: '';
+        background-image: none;
+        margin-left: 0;
+    }
+
+    .carousel-control-next-icon {
+        content: '';
+        background-image: none;
+        margin-right: 0;
+    }
 }
 
 @media (max-width: 546px) {
