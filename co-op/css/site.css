@@ -252,14 +252,14 @@ a.apply-button-text:hover {
     height: 70px;
     width: 35px;
     margin-left: -220px;
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    background-image: url(../images/chevron-left.png);
 }
 
 .carousel-control-next-icon {
     height: 70px;
     width: 35px;
     margin-right: -200px;
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    background-image: url(../images/chevon-right.png);
 }
 
 #our-work-carousel {
