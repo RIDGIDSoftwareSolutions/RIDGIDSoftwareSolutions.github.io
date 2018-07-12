@@ -1,0 +1,533 @@
+/*Combined CSS for the index and apply-now pages*/
+section {
+    padding: 85px 0;
+}
+
+footer {
+    height: 100px;
+    background-color: #000000;
+}
+
+.overlay-background {
+    background-color: #000000 !important;
+    height: 400px;
+    background-image: url(https://cdn2.ridgid.com/Media/Default/localized-media/ResponsiveBanners/HomePage/BFTWKRedesign_1280.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center top
+}
+
+.body-header-text {
+    color: #2D383F;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 40px;
+    padding-bottom: 15px;
+}
+
+.carousel-title-text {
+    color: #2D383F;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 40px;
+    padding-bottom: 15px;
+}
+
+.nav-link {
+    color: #2D383F;
+    white-space: nowrap;
+}
+
+.navbar-border {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.navbar-nav {
+    padding-left: 85px; 
+    font-size: small;
+}
+
+.navbar-nav > li {
+    max-width: 100%;
+    background-color: white;
+	z-index: 100;
+}
+
+.apply-bar-color {
+    color: #005695;
+}
+
+.bg-black {
+    background-color: #000000;
+}
+
+#narrow-black-top {
+  	height: 25px;
+  	background-color: black;
+}
+
+.narrow-top-text {
+    color: #CECECE;
+}
+
+.narrow-top-text:hover {
+    text-decoration: none
+}
+
+.off-white-text {
+    color: #CECECE;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.small-body-text {
+    color: #2D383F;
+    font-size: 16px;  
+    font-weight: 300; 
+    line-height: 26px;
+}
+
+.large-body-text {
+	color: #2D383F;
+    font-size: 27px;
+    font-weight: 300;
+    line-height: 44px;
+}
+
+#map-text {
+    color: #2D383F; 
+    font-size: 23px;  
+    font-weight: 300; 
+    line-height: 44px;
+}
+
+.clever-sentence-text {
+    color: white;
+    font-size: 44px;
+    font-weight: 300;
+    line-height: 55px;
+}
+
+.apply-button {
+    height: 50px;
+    width: 280px;
+    background-color: #004B8D;
+    text-decoration: none
+}
+
+.apply-button:hover {
+    background-color: #00368d
+}
+
+.apply-button-text {
+    border: #000000;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1.17px;
+    line-height: 35px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a.apply-button-text:hover {
+    text-decoration: none;
+    letter-spacing: 2.15px
+}
+ 
+#gmap-canvas {
+    max-width: 100% !important;
+    background: none!important;
+    height: 390px;
+    width: 510px;
+}
+
+.extra-title-padding {
+    padding-bottom: 35px;
+}
+
+#address-text {
+    margin-bottom: 0;
+}
+
+#main-nav {
+    height: 75px;
+}
+
+.footer-container {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.footer-legal {
+    color: white;
+    margin-left: -15px;
+    padding-top: 15px;
+    white-space: nowrap;
+}
+
+.ridgid-rights {
+    padding-top: 20px;
+    color: #909090;
+}
+#apply-now {
+    background-color: #7B9BAA;
+    color: white;
+    height: 371px;
+    padding-top: 90px;
+}
+
+.apply-now-padding {
+    padding: 10px 0;
+}
+
+.apply-now-heading {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.apply-now-text {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.apply-image {
+    padding-bottom: 15px;
+}
+
+.social-media {
+    padding-left: 800px;
+}
+
+.legal-text {
+    color: #CECECE;
+    font-size: 13px;
+    font-weight: 500;
+}
+.social-media-icons {
+    padding-right: 30px;
+    margin-top: -40px
+}
+
+.lg-group-img {
+    max-width: 800px;
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.join-team-small {
+    width: 335px;
+    height: 205px;
+}
+
+.carousel-header-text {
+    color: #2D383F;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.carousel-innter-text {
+    color: #2D383F;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+}
+
+#meet-carousel {
+    height: 430px;
+}
+
+
+.carousel-control-prev-icon {
+    height: 70px;
+    width: 35px;
+    margin-left: -220px;
+    background-image: url(../images/chevron-left.png);
+}
+
+.carousel-control-next-icon {
+    height: 70px;
+    width: 35px;
+    margin-right: -200px;
+    background-image: url(../images/chevon-right.png);
+}
+
+#our-work-carousel {
+    height: 550px;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+a:hover, .btn:hover {
+    color: white;
+    text-decoration: underline;
+} 
+
+.nav-link:hover {
+    color: #2D383F;
+    text-decoration: underline;
+}
+
+.apply-bar-color:hover {
+    color: #005695;
+    text-decoration: underline;
+}
+
+.auto-margin {
+    margin: auto;
+}
+
+.carousel-indicators li {
+    background-color: #C4CED1;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+}
+
+.carousel-indicators .active {
+    background-color: #005695;
+}
+
+.person-title {
+    color: #2D383F;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.person-quote {
+    color: #2D383F;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 38px;
+}
+
+.navbar-toggler-icon {
+	background-image: url(../images/hamburger-menu.png);
+}
+
+#map-text a:hover, .small-body-text a:hover, .large-body-text a:hover {
+	color: #007BFF;
+	text-decoration: underline;
+}
+
+#our-work-nav {
+	padding-right: 60px;
+}
+
+/*CSS for only the apply-now page*/
+.bullet {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+/*Media queries*/
+@media (max-width: 1199px) {
+	#narrow-black-top .col-9 {
+	    margin-left: -35px;
+	}
+
+    .privacy-policy {
+        padding-right: 75px;
+    }
+
+	.navbar-nav {
+		padding-left: 0;
+	}
+
+	.social-media-icons {
+		padding-right: 15px;
+        margin-top: -40px
+	}
+
+    #meet-carousel {
+        height: 470px;
+    }
+
+    #our-work-carousel {
+        height: 400px;
+    }
+
+    .carousel-image {
+        height: 350px;
+    }
+
+    .carousel-control-next-icon {
+        margin-right: -115px
+    }
+}
+
+@media (max-width: 1100px) {
+
+    .carousel-control-prev-icon {
+        margin-left: -160px
+    }   
+}
+
+@media (max-width: 992px) {
+	#narrow-black-top .col-9 {
+	    margin-left: -92px;
+	}
+
+	.social-media-icons {
+		padding-right: 10px;
+	}
+
+    #meet-carousel {
+        height: 535px;
+    }
+}
+
+@media (max-width: 767px) {
+    section {
+        padding: 65px 0;
+    }
+
+    .body-header-text {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .large-body-text {
+        font-size: 17px;
+        line-height: 34px;
+    }
+
+    #meet-carousel {
+        height: 850px;
+    }
+
+    #our-work-carousel {
+        height: 620px;
+    }
+
+    #apply-now {
+        background-color: #7B9BAA;
+        color: white;
+        height: 575px;
+        padding-top: 90px;
+    }
+
+    #the-experience, #who-we-are, #location-housing {
+    	text-align: center;
+    }
+
+    #the-experience img, #map-text {
+    	padding-top: 10px;
+    }
+
+    #who-we-are .body-header-text, #meet-carousel .col-md-7 {
+        text-align: center !important;
+    	padding-top: 10px;
+    }
+
+    #our-work-carousel .col-md-6 {
+        text-align: center !important;
+    }
+
+    .carousel-image {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ridgid-rights {
+        padding-top: 50px;
+    }
+
+    .social-media-icons {
+        margin-top: -75px;
+        padding-right: 25px;
+    }
+
+    .first-icon {
+        margin-left: 15px !important;
+    }
+
+    .privacy-policy {
+        margin-top: -15px;
+        padding-right: 75px;
+    }
+    
+    .terms-policy {
+        margin-top: -15px;
+    }
+}
+
+@media (max-width: 768px) {
+	#narrow-black-top .col-9 {
+	   text-align: center !important;
+	   margin-left: -120px;
+	}
+
+    .apply-button {
+        width: 100%;
+    }
+
+    .clever-sentence-text {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 677px) {
+
+    .carousel-control-prev-icon {
+        content: '';
+        background-image: none;
+        margin-left: 0;
+    }
+
+    .carousel-control-next-icon {
+        content: '';
+        background-image: none;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 546px) {
+	#narrow-black-top .col-9 {
+		padding-left: 155px;
+		margin-left: -146px;
+	}
+}
+
+@media (max-width: 469px) {
+    .social-media-icons {
+        padding-right: 25px;
+    }
+
+    #our-work-carousel {
+        height: 640px;
+    }
+}
+
+@media (max-width: 422px) {
+    .large-body-text {
+        line-height: 24px;
+    }
+
+    .carousel-image {
+        height: 290px;
+    }
+}
+
+@media (max-width: 344px) {
+    .social-media-icons {
+        padding-right: 12px;
+    }
+}
